@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+    font-family: "Lato", sans-serif;
+    color: #2d3c49;
+}
+
+
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+div {
+    min-height: 50px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.col-1 {
+    padding: 0 15px;
+    width: 8.33%;
+}
+
+
+.col-2 {
+    padding: 0 15px;
+    width: 16.66%;
+}
+
+
+.col-3 {
+    padding: 0 15px;
+    width: 25%;
+}
+
+
+.col-4 {
+    padding: 0 15px;
+    width: 33.33%;
+}
+
+
+.col-5 {
+    padding: 0 15px;
+    width: 41.66%;
+}
+
+
+.col-6 {
+
+    padding: 0 15px;
+
+}
+
+
+.col-7 {
+    padding: 0 15px;
+    width: 58.33%;
+}
+
+
+.col-8 {
+    padding: 0 15px;
+    width: 66.66%;
+}
+
+
+.col-9 {
+    padding: 0 15px;
+    width: 75%;
+}
+
+
+.col-10 {
+    padding: 0 15px;
+    width: 83.33%;
+}
+
+
+.col-11 {
+    padding: 0 15px;
+    width: 91.66%;
+}
+
+
+.col-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.text-capital {
+    text-transform: uppercase;
+}
+
+
+.logo {
+    margin-top: 18px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.heading1-format {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+
+.headerfont-align {
+    text-align: right;
+}
+
+
+.footerfont-align {
+    text-align: center;
+}
+
+
+.puppy-fontsize {
+    font-size: 35px;
+}
+
+
+h3,
+h2 {
+    margin: 10px 0;
+}
+
+
+h2 {
+    font-size: 30px;
+    color: #7d97ad;
+}
+
+
+hr {
+    margin: 20px 0;
+    width: 100%;
+    padding: 0 15px;
+    border-top: 4px solid #7d97ad;
+}
+
+
+@media screen and (min-width: 600px) {
+  .col-6 {
+      width: 50%;
+  }
+
+
+  .puppy {
+      padding: 0 15px;
+      width: 33.3%;
+  }
+
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 760px) {
+  p {
+    font-size: 14px;
+  }
+}
